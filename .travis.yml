@@ -1,10 +1,6 @@
 language: smalltalk
 sudo: false
-smalltalk:
-  - SqueakTrunk
-  - Squeak5.0
-  - Squeak4.6
-  - Squeak4.5
+smalltalk: Squeak5.0
 
 env:
   global:
