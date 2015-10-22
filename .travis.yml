@@ -1,11 +1,11 @@
 language: smalltalk
 sudo: false
+smalltalk:
+  - SqueakTrunk
+  - Squeak5.0
+  - Squeak4.6
+  - Squeak4.5
 
 env:
   global:
     - BASELINE=SWTDemo
-  matrix:
-    - SMALLTALK="SqueakTrunk"
-    - SMALLTALK="Squeak5.0"
-    - SMALLTALK="Squeak4.6"
-    - SMALLTALK="Squeak4.5"
