@@ -1,7 +1,10 @@
 language: smalltalk
 sudo: false
 smalltalk: Squeak4.6
-
+os:
+  - linux
+  - osx
+  
 env:
   global:
     - BASELINE=SWTDemo
