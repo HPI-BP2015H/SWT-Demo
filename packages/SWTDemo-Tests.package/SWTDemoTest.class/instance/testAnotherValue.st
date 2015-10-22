@@ -1,3 +1,3 @@
 testing
 testAnotherValue
-	self assert: self demo getAnotherValue = 42
+	self assert: self demo getAnotherValue = 1
