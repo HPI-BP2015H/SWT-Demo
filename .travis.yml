@@ -9,6 +9,4 @@ os:
   - linux
   - osx
   
-env:
-  global:
-    - BASELINE=SWTDemo
+baseline: SWTDemo
